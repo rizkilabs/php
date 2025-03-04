@@ -1,11 +1,6 @@
 <?php
 
-$host = "localhost";
-$user = "root";
-$pass = "";
-$db = "belajar_php";
-
-$mysqli = new mysqli($host, $user, $pass, $db);
+include "koneksi.php";
 
 $sql = "SELECT * FROM users";
 $result = $mysqli->query($sql);
