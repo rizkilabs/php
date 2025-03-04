@@ -13,4 +13,5 @@ if($mysqli->connect_error){
     echo "Koneksi berhasil";
 }
 
+$mysqli->close();
 ?>
